@@ -31,7 +31,7 @@ class Solution:
         rLen = self.treeDiameter(tree.right)
         temp = max(lLen , rLen) + 1
         ans = lLen+ rLen + 1
-        self.res = max(self.res,ans)  # collect maximum value of every node in global variable
+        self.res = max(self.res,ans)  # collect maximum value of every node in my maximum value
         return temp
 
     def main(self,tree):
