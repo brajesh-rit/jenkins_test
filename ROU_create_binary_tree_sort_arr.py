@@ -31,7 +31,7 @@ class Solution:
         rLen = self.treeDiameter(tree.right)
         temp = max(lLen , rLen) + 1
         ans = lLen+ rLen + 1
-        self.res = max(self.res,ans)  # collect maximum value of This is make github webhook trigger.  brajesh
+        self.res = max(self.res,ans)  # collect maximum value of This is make github webhook trigger.  
         return temp
 
     def main(self,tree):
